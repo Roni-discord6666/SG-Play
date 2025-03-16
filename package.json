@@ -1,0 +1,12 @@
+{
+  "name": "secure-gplay",
+  "version": "1.0.0",
+  "description": "Base de données des vulnérabilités Garry's Mod",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+} 
